@@ -1,4 +1,4 @@
 import Hero from "./hero";
-import BeyondPremium from "./beyond-premium";
+import OurServices from "./our-services";
 
-export { Hero, BeyondPremium };
+export { Hero, OurServices };

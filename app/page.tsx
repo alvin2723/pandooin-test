@@ -1,4 +1,4 @@
-import { BeyondPremium, Hero } from "@/components/home";
+import { Hero, OurServices } from "@/components/home";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         buttonText="Take me there"
         link="#destination"
       />
-      <BeyondPremium />
+      <OurServices />
     </main>
   );
 }

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .container {
+    @apply px-0 sm:px-4;
+  }
+}
+
 html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
@@ -27,7 +33,7 @@ hr {
 main {
   font-family: var(--font-albert-sans);
   color: #000000;
-  background-color: #ffffff;
+  background-color: #faf9f5;
 }
 
 *,
