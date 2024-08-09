@@ -1,5 +1,6 @@
 import ListItem from "@/components/ui/list-item";
 import React from "react";
+import TailorExperience from "./tailor-experience";
 
 const OurServices = () => {
   return (
@@ -7,7 +8,7 @@ const OurServices = () => {
       id="beyond-premium"
       className="mt-[54px] lg:my-[72px] py-4 lg:py-0 w-full"
     >
-      <div className="container mx-auto max-w-7xl">
+      <div className="container max-w-7xl">
         <div className="text-center flex flex-col gap-4 lg:gap-[72px]">
           <div className="flex flex-col justify-center items-center">
             <h2 className="font-the-signature text-title-md2 lg:text-title-xl text-green">
@@ -35,6 +36,7 @@ const OurServices = () => {
             />
           </ul>
         </div>
+        <TailorExperience />
       </div>
     </section>
   );

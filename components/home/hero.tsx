@@ -33,7 +33,7 @@ const Hero = ({
         fill
       />
       <div className="relative w-full h-full flex justify-center items-center z-[2]">
-        <div className="w-full max-w-7xl container mx-auto text-center lg:text-left">
+        <div className="w-full max-w-7xl container  text-center lg:text-left">
           <h1 className="text-title-xxl2 lg:text-title-xxl font-the-signature text-brown whitespace-nowrap ">
             {title}
           </h1>

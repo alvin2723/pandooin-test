@@ -1,4 +1,5 @@
 import { Hero, OurServices } from "@/components/home";
+import Separator from "@/components/ui/separator";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         link="#destination"
       />
       <OurServices />
+      <Separator color="brown" />
     </main>
   );
 }
