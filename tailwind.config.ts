@@ -12,7 +12,7 @@ const config = {
   theme: {
     container: {
       center: true,
-    
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
@@ -39,6 +39,7 @@ const config = {
         green: "#0B7373",
         "dark-green": "#004040",
         gray: "#B8B8B8",
+        "gray-2": "#111827cc",
       },
       // borderRadius: {
       //   lg: "var(--radius)",

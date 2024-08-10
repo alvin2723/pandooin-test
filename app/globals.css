@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .container {
-    @apply px-0 sm:px-4;
-  }
-}
-
 html {
   line-height: 1.5;
   font-feature-settings: normal;
@@ -33,7 +27,7 @@ main {
 *,
 *::after,
 *::before {
-  box-sizing: border-;
+  box-sizing: border-box;
 }
 
 h1,

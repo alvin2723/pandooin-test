@@ -47,7 +47,7 @@ const Hero = ({
           {buttonText ? (
             <Button
               asChild
-              className="text-light-brown border border-light-brown rounded-full text-center py-3 lg:py-4 px-6 text-sm lg:first-letter:text-base font-bold mt-6 hover:bg-brown hover:border-none bg-transparent transition-colors ease-in-out h-full max-h-[54px]"
+              className="text-light-brown border-2 border-light-brown rounded-full text-center py-3 lg:py-4 px-6 text-sm lg:first-letter:text-base font-bold mt-6 hover:bg-brown hover:border-none bg-transparent transition-colors ease-in-out h-full max-h-[54px]"
             >
               <Link href={link || "/"}>{buttonText}</Link>
             </Button>

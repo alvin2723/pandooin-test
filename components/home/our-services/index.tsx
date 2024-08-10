@@ -18,7 +18,7 @@ const OurServices = () => {
               Elevate Your Experience
             </span>
           </div>
-          <ul className="list-none flex flex-col lg:flex-row gap-4 lg:gap-6 px-4">
+          <ul className="list-none flex flex-col lg:flex-row gap-4 lg:gap-6">
             <ListItem
               image="/images/services/icon-1.svg"
               title="Personalized Itineraries"

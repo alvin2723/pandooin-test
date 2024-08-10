@@ -6,17 +6,33 @@ type Props = {
   title: string;
   link: string;
   active?: boolean;
-  color?: "light" | "brown";
+  color: "light" | "brown";
 };
 
-const MenuItem = ({ title, link }: Props) => {
+const HeaderMenuItem = ({ title, link, color, active }: Props) => {
   return (
-    <div className={cn(`py-3 lg:py-4 px-4`)}>
-      <Link href={link} className={cn(`text-light-brown font-bold text-base`)}>
+    <div
+      className={cn(
+        active
+          ? `border-b-2 ${
+              color === "brown" ? "border-dark-green" : "border-light-brown"
+            }`
+          : "border-none",
+        "py-3 lg:py-4 px-4"
+      )}
+    >
+      <Link
+        href={link}
+        className={cn(
+          color === "brown" ? "text-green" : "text-light-brown",
+
+          "text-base font-bold text-end lg:text-left"
+        )}
+      >
         {title}
       </Link>
     </div>
   );
 };
 
-export default MenuItem;
+export default HeaderMenuItem;

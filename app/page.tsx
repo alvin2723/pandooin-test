@@ -1,4 +1,11 @@
-import { Hero, OurServices } from "@/components/home";
+import {
+  Articles,
+  Destinations,
+  Hero,
+  LuxuryFootages,
+  OurServices,
+  PandooWebsite,
+} from "@/components/home";
 import Separator from "@/components/ui/separator";
 
 export default function Home() {
@@ -14,6 +21,10 @@ export default function Home() {
       />
       <OurServices />
       <Separator color="brown" />
+      <PandooWebsite />
+      <Destinations />
+      <LuxuryFootages />
+      <Articles />
     </main>
   );
 }
